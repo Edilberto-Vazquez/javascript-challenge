@@ -1,0 +1,31 @@
+.searchbar {
+  width: 100%;
+  height: auto;
+  display: grid;
+  justify-items: center;
+  row-gap: 14px;
+}
+
+.searchbar__title {
+  font-size: 2.4rem;
+  text-align: center;
+  color: white;
+}
+
+.searchbar__input {
+  width: 70%;
+  height: 50px;
+  padding-left: 24px;
+  border-radius: 40px;
+  border: 2px solid white;
+  background: #9671e0;
+  font-size: 1.6rem;
+}
+
+.searchbar__input::placeholder {
+  color: white;
+}
+
+.searchbar__input:focus-visible {
+  outline: none;
+}

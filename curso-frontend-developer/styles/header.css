@@ -1,0 +1,45 @@
+.header {
+  width: 100%;
+  height: auto;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__img {
+  min-width: 100px;
+  max-width: 400px;
+  height: auto;
+}
+
+.header__menu {
+  width: 160px;
+  display: grid;
+  row-gap: 24px;
+  color: white;
+}
+
+.header__menu--profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__menu ul {
+  display: none;
+  position: absolute;
+  top: 120px;
+  text-align: right;
+  list-style: none;
+}
+
+.header__menu:hover ul,
+ul:hover {
+  display: block;
+}
+
+.header__menu ul li a {
+  text-decoration: none;
+  color: white;
+}
